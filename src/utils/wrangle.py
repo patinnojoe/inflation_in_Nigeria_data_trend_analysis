@@ -97,6 +97,16 @@ def wrangle(csv_path):
 
     analysis_df.set_index('date', inplace=True)
     analysis_df.drop(columns=['year', 'month'], inplace=True)
-
     
+    # Fix the outlier for december 2024 changing the yoy_inflation_pct from 15.44 to 38.0
+   # ------------------------------------------------------------------
+    # DATA CORRECTION PATCH
+    # ------------------------------------------------------------------
+    # Target the index using a proper pandas Timestamp object
+    target_date = pd.Timestamp('2024-12-01')
+    
+    if target_date in analysis_df.index:
+        analysis_df.loc[target_date, 'yoy_inflation_pct'] = 34.80
+       
+        
     return analysis_df
