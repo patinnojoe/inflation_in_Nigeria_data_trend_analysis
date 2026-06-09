@@ -31,13 +31,11 @@ This project is designed as both:
 
 ## Primary Questions
 
-1. How has inflation evolved in Nigeria from 2019 to 2025?
-2. Which CPI categories experienced the highest inflation growth?
-3. Did fuel subsidy removal significantly accelerate inflation?
-4. How did COVID-19 affect inflation dynamics?
-5. Is food inflation consistently higher than headline inflation?
-6. Which sectors experienced the most volatility?
-7. What patterns emerge before and after major economic policy shifts?
+Question 1: How has headline inflation evolved in scale and volatility across Nigeria from 2019 to 2025?
+
+Question 2: Did the June 2023 fuel subsidy removal trigger a permanent structural regime shift in inflation dynamics?
+
+Question 3: Which specific CPI consumption categories drove this price expansion, and which sectors exhibited the highest month-on-month volatility?
 
 ---
 
